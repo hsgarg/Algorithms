@@ -75,8 +75,8 @@ int main(){
 	q.dequeue();
 	q.enqueue(10);
 	q.enqueue(11);
-    q.enqueue(101);
-    q.enqueue(1001);
+ 	q.enqueue(101);
+  	q.enqueue(1001);
 
     // printing the queue
 	while(!q.empty()){
