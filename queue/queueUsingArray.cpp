@@ -48,7 +48,7 @@ public:
 	}
     //____________________DEQUEUE Function____________________//
 	void dequeue(){
-        // Checking if there are any elements present to dequeue or not
+        // Checking if there are any elements present to dequeue 
 		if(!empty()){
 			front = (front+1)%maximumSize;
 			currentSize--; 
